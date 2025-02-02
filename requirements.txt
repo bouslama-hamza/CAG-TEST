@@ -1,3 +1,7 @@
 streamlit
 python-dotenv
 openai
+llama-index==0.12.15
+llama-index-llms-langchain==0.5.1
+langchain-community==0.3.16
+langchain-openai==0.3.3
