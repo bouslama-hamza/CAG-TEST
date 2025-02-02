@@ -15,6 +15,9 @@ st.title("Streamlit Chatbot Interface")
 USER_AVATAR = "👤"
 BOT_AVATAR = "🤖"
 
+# Set up OpenAI API key
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+
 # Load chat history from shelve file
 def load_chat_history():
     with shelve.open("chat_history") as db:
