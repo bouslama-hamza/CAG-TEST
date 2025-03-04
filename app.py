@@ -1,4 +1,4 @@
-from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, StorageContext, load_index_from_storage
+from llama_index.core import StorageContext, load_index_from_storage
 from llama_index.core import PromptTemplate
 from langchain_openai import ChatOpenAI
 import streamlit as st
